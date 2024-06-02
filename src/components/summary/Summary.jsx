@@ -39,11 +39,7 @@ const Summary = ({ transactions }) => {
       <div className="top">
       <h2>Summary</h2>
       <div className="search-bar">
-      <input
-        type="text"
-        placeholder="Search by category..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}  />
+      <input   type="text" placeholder="Search by category..."  value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}  />
       </div>
       </div>
       <div className="center">

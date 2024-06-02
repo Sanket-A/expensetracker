@@ -1,0 +1,112 @@
+.history{
+    flex: 2;
+    border-left: 1px solid #dddddd35;
+    border-right: 1px solid #dddddd35;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+   
+   .top{
+    height: 40px;
+    width: full;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    .texts{
+      padding-left: 35%;
+    }
+    .search-bar{
+     
+        display: flex;
+        padding-bottom: 20px;
+        padding-top: 5px;
+    
+      }
+      .search-bar input {
+       
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 12px;
+      
+      }
+   
+   }
+ 
+.center{
+    scrollbar-width: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    flex: 1;
+    overflow: scroll;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-top: 1px solid #dddddd35;
+
+  
+   
+    .transaction-table {
+        align-items: center;
+        width: 100%;
+      }
+      
+      .transaction-table th{
+        border-bottom: 1px solid #dddddd35;
+        
+      }
+      .transaction-table tr{
+       font-size: 10px;
+      }
+      
+      .transaction-table th,
+      .transaction-table td {
+
+        padding: 15px ;
+        text-align: center;
+      }
+      
+      .transaction-table th {
+        font-weight: bold;
+      }
+      
+    
+    
+
+}
+.totals{
+    padding: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between
+   }
+.bottom{
+    
+    width: full;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-right: 30px;
+    justify-content: right;
+
+    .addtransaction{
+       
+        padding-top: 20px;
+        padding-bottom: 10px;
+       
+        img{
+    
+      
+            width: 30px;
+            height: 30px;
+            border-radius: 70%;
+            object-fit: cover;
+            cursor: pointer;
+    }
+    }
+      
+    }
+
+}

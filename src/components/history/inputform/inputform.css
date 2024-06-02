@@ -1,0 +1,44 @@
+.inputform {
+  margin: 0 auto;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.inputform .input,
+.inputform .inputradio {
+  margin-bottom: 10px;
+}
+
+.inputform label {
+  margin-bottom: 6px;
+}
+
+.inputform input[type='number'],
+.inputform select,
+.inputform input[type='text'] {
+  width: 100%;
+  padding: 7px;
+  margin-top: 6px;
+}
+
+.inputform input[type='radio'] {
+  margin-right: 12px;
+}
+
+.inputform .inputradio label {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.inputform button {
+  padding: 7px 14px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inputform button:hover {
+  background-color: #0056b3;
+}

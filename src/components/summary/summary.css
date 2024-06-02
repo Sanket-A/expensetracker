@@ -1,0 +1,76 @@
+.summary{
+  flex: 0.8;
+    height: 90vh;
+    padding-left: 20px;  
+    padding-bottom: 20px;  
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+        border-top: 1px solid #dddddd35;
+
+  .top{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+    padding-top: 10px;
+     h2{
+      display: flex;
+      justify-content: center;
+     }
+    .search-bar{
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .search-bar input {
+      width: 70%;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 12px;
+    
+    }
+    
+   
+  }
+
+  .center{
+
+    scrollbar-width:none;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+    overflow: scroll;
+    
+  
+  .summary-list {
+    border-top: 1px solid #dddddd35;
+    
+    flex-direction: column;
+  }
+
+  
+  
+  .summary-item {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-right: 5px;
+    border-radius: 5px;
+
+  }
+  
+  .category {
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  
+  .income,
+  .expenses {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+}
+
+
+}
